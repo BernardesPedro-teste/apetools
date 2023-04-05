@@ -126,7 +126,7 @@
           </div>
 
           <div v-if="isArchiveReady">
-            <button class="btn btn-success btn-lg" v-on:click="downloadZip">
+            <button class="btn btn-success btn-lg" :id="downloadZip" v-on:click="downloadZip">
               Download Zip
             </button>
             <a href="https://apetools.webprofusion.com" class="ms-2">Try Again</a>
