@@ -1,7 +1,7 @@
 {
   "name": "apetools",
   "description": "ApeTools is a simple web app to produce image asset bundles for a variety of app platforms",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
